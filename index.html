@@ -33,7 +33,7 @@
         </div>
     </main>
     <style>
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Inconsolata:wght@200..900&family=Indie+Flower&family=Orbitron:wght@400..900&display=swap');
 
 * {
@@ -128,6 +128,29 @@ body {
     cursor: pointer;
 
 }
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    .box-part {
+    width: 250px;
+    height: 600px;
+    }
+
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .photo {
+        margin-left: 30%;
+    }
+    .box-part button:active {
+        background-color: green;
+        border: 1px greenyellow solid;
+    }
+}
+
+
     </style>
 </body>
 </html>
