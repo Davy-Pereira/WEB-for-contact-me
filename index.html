@@ -18,12 +18,22 @@
                     
                 <h2 class="sobre">
                     Bem vindo, sou um programador junior pronto
+                    <br>
                     para ajudar com o front-end do seu web site ou programas
+                    <br>
                     mais complicados.
                 </h2>
                 <br>
                 <a href="https://www.linkedin.com/in/davipereiravieira-dev/">
-                    <i class="bi bi-linkedin"></i>linkedin
+                    <i class="bi bi-linkedin">
+                        linkedin
+                    </i>
+                </a>
+
+                <a href="https://github.com/Davy-Pereira">
+                  <i class="bi bi-github">
+                      GitHub
+                  </i>
                 </a>
                 <br>
                 <button onclick="window.location.href='//www.instagram.com/davycarr/';">
@@ -33,7 +43,7 @@
         </div>
     </main>
     <style>
-        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Inconsolata:wght@200..900&family=Indie+Flower&family=Orbitron:wght@400..900&display=swap');
 
 * {
@@ -136,17 +146,26 @@ body {
     width: 250px;
     height: 600px;
     }
+    .box-part i {
+        display: flex;
+        margin-left: 30%;
+    }
 
     body {
         background-size: cover;
         background-repeat: no-repeat;
     }
     .photo {
-        margin-left: 30%;
+        margin-left: 26%;
+        margin-top: 10%;
     }
     .box-part button:active {
         background-color: green;
         border: 1px greenyellow solid;
+    }
+
+    .box-part button {
+        margin-top: -5%;
     }
 }
 
